@@ -1,0 +1,99 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/304/595/large_2x/white-and-silver-color-background-with-dynamic-diagonal-stripe-lines-and-halftone-texture-modern-and-simple-gray-color-template-banner-design-luxury-and-elegant-concept-eps10-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+    color: white; /* Color del texto del menú */
+    padding: 10px; /* Espacio de relleno para el menú */
+    margin-bottom: 2%;
+    
+}
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+nav li {
+    margin: 20px;
+}
+header {
+    justify-content: flex-end;
+    display: flex;
+}
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3, h4, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor {
+    display: inline-flex;
+    justify-content: center;
+}
+.fila {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 20;
+    margin-right: 5px;
+    width: 50%;
+}
+.filaInterior{
+    align-items: center;
+}
+.imgInterior{
+    margin-right: 20px;
+    float: left;
+    border-radius: 10px;
+}
+.columna2 {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedorCat {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+ /* Establecer el alto al 100% del viewport */
+}
+.columnaCat{
+    flex-basis: 30%; /* Ancho inicial de cada columna */
+    padding: 20px; /* Espacio de relleno para separar el contenido */
+    border: 0px solid #ccc; /* Borde para visualización */
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    text-align: center;
+}
+.contenedorfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.columnasfooter {
+    flex-basis: 30%;
+    padding: 15px 15px;
+    border-right: 1px dashed #ccc;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    text-align: center;
+}
